@@ -1,0 +1,21 @@
+print("pick a lottery number")
+print()
+#your 6 picks
+yp1=int(input("pick first number(1-49:"))
+yp2=int(input("pick second number(1-49:"))
+yp3=int(input("pick third number(1-49:"))
+yp4=int(input("pick fourth number(1-49:"))
+yp5=int(input("pick fifth number(1-49:"))
+yp6=int(input("pick sixth number(1-49):"))
+
+print(yp1,yp2,yp3,yp4,yp5,yp6)
+
+#random lottery picks
+rn1=random(1,49)
+rn2=random(1,49)
+rn3=random(1,49)
+rn4=random(1,49)
+rn5=random(1,49)
+rn6=random(1,49)
+
+print(rn1,rn2,rn3,rn4,rn5,rn6)
